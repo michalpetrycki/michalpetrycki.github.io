@@ -1,33 +1,52 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<!-- page title -->
 		<title>Arduino page</title>
 		
+		<!-- coding meta tags -->
 		<meta charset="utf-8">
+		<!-- responsive meta -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-
+		
+		<!-- importing styles file -->
 		<link rel="stylesheet" href="../styles.css" >
+		<!-- importing bootstrap libraries -->
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
 		<link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.0.0-beta.4/dist/css/bootstrap-material-design.min.css" integrity="sha384-R80DC0KVBO4GSTw+wZ5x2zn2pu4POSErBkf8/fSFhPXHxvHJydT0CSgAP2Yo2r4I" crossorigin="anonymous">
+	
 	</head>
 	<body>
 		<div class="container">
-			<div class="header" style="font-size: 14px !important;">
+		
+			<!-- header -->
+			<div class="header">
+			
 				<nav class="col-lg-12">
+				
 					<ul class="nav nav-pills nav-fill">
+					
+						<!-- header items -->
 						<li class="nav-item"><a class="nav-link active" href="../index.html">WELCOME</a></li>
 						<li class="nav-item"><a class="nav-link" href="../projects-page.html">PROJECTS</a></li>
-						<li class="nav-item"><a class="nav-link" href="../cv-page.html">CV</a></li>
+						<li class="nav-item"><a class="nav-link" href="../cv-page.html">CV</a</li>
 						<li class="nav-item"><a class="nav-link" href="../contact-page.html">CONTACT</a></li>
+						<!-- end of header items -->
+						
 					</ul>
 				</nav>
 			</div>
+			<!-- end of header -->
 			
+			
+			<!-- main content -->	
 			<div class="content">
 				
+				<!-- project title -->
 				<h1 class="projects-h1">Arduino stuff</h1>
 				
+				<!-- images holder -->
 				<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 					<div class="carousel-inner">
 						<div class="carousel-item active">
@@ -49,8 +68,10 @@
 						<span class="sr-only">Next</span>
 					</a>
 				</div>
+				<!-- end of images holder -->
 				
 				
+				<!-- separator -->
 				<div class="clear"></div>
 				
 				
@@ -58,6 +79,7 @@
 				
 					<h2>Arduino code</h2>
 					
+					<!-- arduino source code -->
 					<textarea class="code-textarea" disabled>
 						int mq3_analogPin = A0; // connected to the output pin of MQ3
 
@@ -103,10 +125,15 @@ void loop() {
 
 }
 					</textarea>
+					<!-- end of arduino code -->
+					
+					<!-- download button -->
 					<a href="https://ufile.io/9t2j8" class="btn btn-info">Download arduino code</a>
 					
 					<br /><br/ >
 					<h2>Processing code</h2>
+					
+					<!-- processing code -->
 					<textarea class="code-textarea" disabled>
 import processing.serial.*;
 import twitter4j.conf.*;
@@ -230,19 +257,28 @@ void tweet(String val){
 	}
 }
 					</textarea>
+					<!-- end of processing code -->
+					
+					<!-- download code button -->
 					<a href="https://ufile.io/qpdbl" class="btn btn-info">Download processing code</a>
+					
 				</div>
 			</div>
 		</div>
 		
+		<!-- footer -->
 		<footer class="col-lg-12" id="footer">
 				<p>Michal Petrycki &copy 2017</p>
 		</footer>
+		<!-- end of footer -->
 		
+		
+		<!-- bootstrap scripts -->
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
 		<script src="https://unpkg.com/bootstrap-material-design@4.0.0-beta.4/dist/js/bootstrap-material-design.js" integrity="sha384-3xciOSDAlaXneEmyOo0ME/2grfpqzhhTcM4cE32Ce9+8DW/04AGoTACzQpphYGYe" crossorigin="anonymous"></script>
 		<script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
+		<!-- end of bootstrap scripts -->
 		
 	</body>
 </html>
