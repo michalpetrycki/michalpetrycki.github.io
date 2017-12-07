@@ -1,70 +1,118 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<!-- page title -->
 		<title>Contact page</title>
 	
+		<!-- coding meta tags -->
 		<meta charset="utf-8">
+		<!-- responsive meta -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-
+		
+		<!-- importing styles file -->
 		<link rel="stylesheet" href="./styles.css" >
+		<!-- importing bootstrap libraries -->
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
 		<link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.0.0-beta.4/dist/css/bootstrap-material-design.min.css" integrity="sha384-R80DC0KVBO4GSTw+wZ5x2zn2pu4POSErBkf8/fSFhPXHxvHJydT0CSgAP2Yo2r4I" crossorigin="anonymous">
 	
 	</head>
 	<body>
 		<div class="container">
+		
+			<!-- header -->
 			<div class="header">
+			
 				<nav class="col-lg-12">
+				
 					<ul class="nav nav-pills nav-fill">
+					
+						<!-- header items -->
 						<li class="nav-item"><a class="nav-link" href="index.html">WELCOME</a></li>
 						<li class="nav-item"><a class="nav-link" href="projects-page.html">PROJECTS</a></li>
-						<li class="nav-item"><a class="nav-link" href="cv-page.html">CV</a></li>
+						<li class="nav-item"><a class="nav-link" href="cv-page.html">CV</a</li>
 						<li class="nav-item"><a class="nav-link active" href="contact-page.html">CONTACT</a></li>
+						<!-- end of header items -->
+						
 					</ul>
 				</nav>
 			</div>
+			<!-- end of header -->
 			
 			
+			<!-- main content -->			
 			<div class="content">
 			
 				<h1>If you'd like to contact me: </h1>
 
 				<div class="col-lg-8" id="contact-container">
 				
+					<!-- contact form -->
 					<form id="contact-form">
 					
 						<div class="form-row">
+							
+							<!-- name input -->
 							<div class="col">
+							
 								<input id="name" type="text" class="form-control" placeholder="Name..." >
+								
 							</div>
+							<!-- end of name -->
+							
+							<!-- email input -->
 							<div class="col">
+							
 								<input id="email" type="text" class="form-control" placeholder="Email..." >
+								
+								<!-- small text below email field -->
 								<small class="form-text text-muted">
 									Your email has to be in 'example@mail.com' format.
 								</small>
+								
 							</div>
+							<!-- end of email -->
+							
 						</div>
+						<!-- end of first row -->
+						
+						<!-- second row -->
 						<div class="form-row">
+						
 							<div class="col">
+								<!-- textarea -->
 								<textarea id="message" rows="4" class="form-control" placeholder="Message..."></textarea>
+								<!-- end of textarea -->
+								
 							</div>
+							
 						</div>
+						<!-- end of second row -->
+						
+						<!-- third row -->
 						<div class="form-row">
+						
+							<!-- button -->
 							<a href="#" onclick="send()" class="btn btn-primary">Send</a>
+							
 						</div>
+						<!-- end of third row -->
 						
 					</form>
+					<!-- end of contact form -->
 					
 				</div>
 				
 			</div>
 			
 			
+			<!-- footer -->
 			<footer class="col-lg-12" id="footer">
 				<p>Michal Petrycki &copy 2017</p>
 			</footer>
+			<!-- end of footer -->
 			
+			<!-- send email script; takes values from inputs and set up new email using those values -->
 			<script>
 				function send(){
 					var mail = "mailto:";
@@ -81,6 +129,8 @@
 					document.getElementById("message").value = "";
 				}
 			</script>
+			<!-- end of send script -->
+			
 		</div>
 	</body>
 </html>
