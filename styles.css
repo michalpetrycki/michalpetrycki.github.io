@@ -33,6 +33,9 @@
 	height: 50%;
 }
 
+.btn btn-primary{
+	background-color: #147057 !important;
+}
 
 /*CV-PAGE-STYLES*/
 .table{
