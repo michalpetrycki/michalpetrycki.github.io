@@ -33,7 +33,7 @@
 	height: 50%;
 }
 
-.btn btn-primary{
+.card-body .btn-primary{
 	background-color: #147057 !important;
 }
 
