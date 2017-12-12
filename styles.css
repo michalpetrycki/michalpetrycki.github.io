@@ -38,6 +38,10 @@
 	color: #dee8e5 !important;
 }
 
+.col-lg-12 .btn-info{
+	background-color: #e5e387 !important;
+}
+
 /*CV-PAGE-STYLES*/
 .table{
 	font-size: 26px;
