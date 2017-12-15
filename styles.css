@@ -43,8 +43,8 @@
 }
 
 .carousel-item > img{
-	height: 400px !important;
-	width: 600px !important;
+	width: 600px;
+	height: 400px;
 }
 /*CV-PAGE-STYLES*/
 .table{
