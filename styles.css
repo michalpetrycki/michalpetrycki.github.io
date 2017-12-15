@@ -43,9 +43,9 @@
 }
 
 .carousel-item > img{
-	width: 600px;
-	height: 400px;
-	align: center;
+	width: 640px;
+	height: 360px;
+	text-align: center;
 }
 /*CV-PAGE-STYLES*/
 .table{
