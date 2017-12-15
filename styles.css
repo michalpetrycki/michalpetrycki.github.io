@@ -42,7 +42,7 @@
 	background-color: #e5e387 !important;
 }
 
-.w-100{
+.carousel-item > img{
 	height: 400px !important;
 	width: 600px !important;
 }
