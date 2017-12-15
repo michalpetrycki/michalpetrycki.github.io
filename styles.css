@@ -45,7 +45,7 @@
 .carousel-item > img{
 	width: 600px;
 	height: 400px;
-	margin: auto;
+	align: center;
 }
 /*CV-PAGE-STYLES*/
 .table{
