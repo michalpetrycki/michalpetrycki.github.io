@@ -42,9 +42,9 @@
 	background-color: #e5e387 !important;
 }
 
-.carousel-item > img{
-	height: 400px;
-	width: 600px;
+.d-block .w-100{
+	height: 400px !important;
+	width: 600px !important;
 }
 /*CV-PAGE-STYLES*/
 .table{
