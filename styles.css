@@ -45,7 +45,7 @@
 .carousel-inner > .carousel-item > img{
 	max-width: 50% !important;
 	max-height: 50% !important;
-	text-align: center;
+	margin: auto;
 }
 /*CV-PAGE-STYLES*/
 .table{
