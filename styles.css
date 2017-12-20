@@ -43,8 +43,8 @@
 }
 
 .carousel-inner > .carousel-item > img{
-	max-width: 480px !important;
-	max-height: 320px !important;
+	max-width: 50% !important;
+	max-height: 50% !important;
 	text-align: center;
 }
 /*CV-PAGE-STYLES*/
