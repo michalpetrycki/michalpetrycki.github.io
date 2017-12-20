@@ -42,9 +42,9 @@
 	background-color: #e5e387 !important;
 }
 
-.w100{
-	width: 480px !important;
-	height: 320px !important;
+.carousel-item{
+	max-width: 480px !important;
+	max-height: 320px !important;
 	text-align: center;
 }
 /*CV-PAGE-STYLES*/
