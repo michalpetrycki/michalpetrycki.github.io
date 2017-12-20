@@ -42,7 +42,7 @@
 	background-color: #e5e387 !important;
 }
 
-.carousel-item > .w100 > img{
+.carousel-item .w100 img{
 	width: 480px !important;
 	height: 320px !important;
 	text-align: center;
