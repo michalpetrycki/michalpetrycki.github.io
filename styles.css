@@ -42,7 +42,7 @@
 	background-color: #e5e387 !important;
 }
 
-.carousel-item{
+.carousel-inner > .carousel-item > img{
 	max-width: 480px !important;
 	max-height: 320px !important;
 	text-align: center;
