@@ -42,6 +42,10 @@
 	background-color: #e5e387 !important;
 }
 
+.w-100{
+	width: 480px !important;
+	height: 300px !important;
+}
 .carousel-item > img{
 	width: 480px;
 	height: 320px;
