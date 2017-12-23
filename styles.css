@@ -47,14 +47,14 @@
 	max-height: 50% !important;
 	margin: auto;
 } */
-.carousel-slide{
+.carousel-inner{
 	max-width: 50% !important;
 	max-height 50% !important;
 	margin: auto;
 }
 
 .carousel-control-next,
-.carousel-control-right{
+.carousel-control-prev{
 	background-color: blue;
 	opacity: 0.6;
 }
