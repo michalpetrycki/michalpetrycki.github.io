@@ -39,9 +39,9 @@
 }
 
 .btn-info{
-	display: block;
-	color: #03a9f4;
-	background-color: #ccc;
+	display: block !important;
+	color: #03a9f4 !important;
+	background-color: #ccc !important;
 	width: 300px;
 }
 
@@ -55,6 +55,11 @@
 	width: 50px !important;
 	background-color: blue;
 	opacity: 0.6;
+}
+
+.code-textarea{
+	width: 640px;
+	margin: auto;
 }
 /*CV-PAGE-STYLES*/
 .table{
