@@ -50,7 +50,7 @@
 
 .carousel-control-next,
 .carousel-control-prev{
-	max-width: 50% !important;
+	width: 50px !important;
 	background-color: blue;
 	opacity: 0.6;
 }
