@@ -41,10 +41,15 @@
 .btn .btn-info{
 	background-color: #e5e387 !important;
 }
-
+/* 
 .carousel-inner > .carousel-item > img{
 	max-width: 50% !important;
 	max-height: 50% !important;
+	margin: auto;
+} */
+.carousel-slide{
+	max-width: 50% !important;
+	max-height 50% !important;
 	margin: auto;
 }
 /*CV-PAGE-STYLES*/
