@@ -47,11 +47,7 @@
 	margin-top: 20px;
 }
 
-.carousel slide{
-	width: 680px;
-	margin: auto;
-}
-#carouselConsoleControls{
+.carousel{
 	width: 680px;
 	margin: auto;
 }
