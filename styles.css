@@ -47,7 +47,7 @@
 	margin-top: 20px;
 }
 
-.carousel slide{
+#carouselConsoleControls, #carouselFxControls, #carouselArduinoControls{
 	width: 680px;
 	margin: auto;
 }
