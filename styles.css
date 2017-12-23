@@ -47,6 +47,9 @@
 	max-height: 50% !important;
 	margin: auto;
 }
+.carousel-slide{
+	max-width: 680px !important;
+}
 
 .carousel-control-next,
 .carousel-control-prev{
