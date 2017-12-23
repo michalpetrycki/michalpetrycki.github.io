@@ -52,6 +52,12 @@
 	max-height 50% !important;
 	margin: auto;
 }
+
+.carousel-control-next,
+.carousel-control-right{
+	background-color: blue;
+	opacity: 0.6;
+}
 /*CV-PAGE-STYLES*/
 .table{
 	font-size: 26px;
