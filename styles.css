@@ -42,13 +42,9 @@
 	background-color: #e5e387 !important;
 }
 
-.carousel-inner{
-	max-width: 50% !important;
-	max-height: 50% !important;
-	margin: auto;
-}
 #carouselConsoleControls{
-	max-width: 680px !important;
+	width: 680px;
+	margin: auto;
 }
 
 .carousel-control-next,
