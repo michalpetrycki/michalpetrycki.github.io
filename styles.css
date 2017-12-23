@@ -38,8 +38,10 @@
 	color: #dee8e5 !important;
 }
 
-.btn .btn-info{
-	background-color: #e5e387 !important;
+.btn-info{
+	display: block;
+	background-color: #4286f4;
+	width: 300px;
 }
 
 #carouselConsoleControls{
