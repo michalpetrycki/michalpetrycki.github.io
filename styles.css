@@ -40,7 +40,8 @@
 
 .btn-info{
 	display: block;
-	background-color: #4286f4;
+	color: #03a9f4;
+	background-color: #ccc;
 	width: 300px;
 }
 
