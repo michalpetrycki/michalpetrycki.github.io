@@ -173,12 +173,15 @@ h1{
 	text-align: center;
 	font-size: 52px !important;
 }
+
 h4{
 	font-size: 34px !important;
 }
+
 .nav-pills > li > a{
-	font-size: 17px !important;
+	font-size: 14px !important;
 }
+
 .form-cotrol #source{
 	width: 100%;
 	height: 300px;
@@ -186,18 +189,18 @@ h4{
 	border: 1px solid black;
 	
 }
+
 .clear{
 	height: 10px;
 }
+
 #footer{
 	text-align: center;
 	margin-top: 30px;
 	height: 50px;
 	bottom: 0;
 }
+
 body{
 	margin-bottom: 50px;
 }
-
-
-
